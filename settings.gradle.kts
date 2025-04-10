@@ -1,2 +1,4 @@
 rootProject.name = "garden-manager"
-include("api-gateway")
+include(
+    "api-gateway",
+    "eureka-server")
